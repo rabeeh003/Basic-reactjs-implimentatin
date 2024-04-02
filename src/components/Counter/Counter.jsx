@@ -15,11 +15,11 @@ function Counter() {
                     <span className='text-[50px]'>{count}</span>
                 </div>
             </div>
-            <div class="inline-flex">
-                <button onClick={mines} class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+            <div className="inline-flex">
+                <button onClick={mines} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
                     Mines
                 </button>
-                <button onClick={plus} class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
+                <button onClick={plus} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
                     Plus
                 </button>
             </div>
