@@ -8,6 +8,7 @@ import Products from './components/PlaceList/Products'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Counter from './components/Counter/Counter'
 import UserList from './components/UserList/Userlist'
+import NamePrint from './components/PritName/PrintName'
 
 function App() {
 
@@ -15,10 +16,11 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Todo/>} />
-        <Route path='/list' element={<Products/>} />
-        <Route path='/counter' element={<Counter/>} />
-        <Route path='/userlist' element={<UserList/>} />
+        <Route path='/' element={<Todo />} />
+        <Route path='/list' element={<Products />} />
+        <Route path='/counter' element={<Counter />} />
+        <Route path='/userlist' element={<UserList />} />
+        <Route path='/nameShow' element={<NamePrint />} />
       </Routes>
     </BrowserRouter>
   )
